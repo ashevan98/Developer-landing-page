@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Baloo+Thambi+2&family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Baloo+Thambi+2&family=Mooli&family=Raleway:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    line-height: 1.4;
+    font-weight: 300;
+}
+
+.hero_section{
+    background-image: url(background.jpg);
+    background-position: center;
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.text_container{
+    color: black;
+    max-width: 1000px;
+    margin: 0 200px;
+    padding: 133px 20px;
+}
+.lg_text{
+    font-size: 60px;
+    font-family: 'Raleway', sans-serif;
+
+}
+.blackbox{
+    background-color: black;
+    padding: 50px;
+    font-family: 'Raleway', sans-serif;
+
+
+}
+.blackbox h2{
+    font-weight: 200;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+.blackbox span{
+    font-weight: 200;
+    font-size: 70px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.item1{
+   margin: 5px; 
+   width: 500px;
+   height: 300px;
+    
+}
+.item2{
+   margin: 10px; 
+   width: 350px;
+   height: 300px;
+    
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.bottom{
+    display: flex;
+    justify-content: center;
+}
+
+.about, .contact{
+    background-color: rgb(243, 243, 243);
+    margin: 60px;
+    height: 350px;
+    width: 600px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 3px 5px 5px;
+    
+}
+.about:hover{
+    transform: scale(1.04);
+    transition: 0.5s;
+    box-shadow: 10px 10px 10px;
+}
+.contact:hover{
+    transform: scale(1.04);
+    transition: 0.5s;
+    box-shadow: 10px 10px 10px;
+}
+
+h2{
+    font-size: 50px;
+    font-family:'Baloo Thambi 2', cursive;
+    
+}
+p{
+    font-size: 25px;
+    padding: 20px;
+    text-align: justify;
+    font-family:'Baloo Thambi 2', cursive;
+}
+
+.bigcard{
+    display:flex;
+    justify-content: space-between;
+}
+
+.card{
+    height: 100px;
+    width: 200px;
+    /* background-color: rebeccapurple; */
+    padding-block: 70px;
+    font-size: 30px;
+    cursor: pointer;
+
+}
+
+.card-icon{
+    background-color: orangered;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    line-height: 60px !important;
+    border-radius: 50%;
+    transition: 0.5s linear;
+}
+
+.card:hover .card-icon{
+    background: none;
+    color: orangered;
+    transform: scale(1);
+}
